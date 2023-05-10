@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 20px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 30px 0 0 0;
+}
+.content{
+    max-width: 841px;
+    margin: 0 auto;
+}
+.list li{
+    padding: 0 0 0 35px;
+    margin: 0 0 15px 0;
+    background:  url(../images/li.svg) left 60% no-repeat;
+}
+form{
+    margin: 20px 0 0 0;
+}
+.textinput{
+    height: 35px;
+    padding: 0 30px;
+}
+.textbutton{
+    display: block;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+}
+.list li:nth-child(1){
+    text-decoration: line-through;
+}
+.list li:nth-child(2){
+    text-shadow: 1px 1px 2px #000;
+}
+.list li:nth-child(3){
+    font-style: italic;
+}
+.list li:nth-child(4){
+    text-transform: uppercase;
+}
+.list li:hover{
+    color: #ff4d4d;
+    text-decoration: none;
+    background:  url(../images/hover_li.svg) left 60% no-repeat;
+    text-shadow: none;
+    text-transform: none;
+    font-style: normal;
+}
+.textinput{
+    border: 1px solid #7f7f7f;
+}
+.textinput:focus{
+    border: 1px solid #56565699;
+    box-shadow: 5px 3px 10px rgb(0, 187, 255);
+}
+.textbutton{
+    margin: 45px 0 0 0;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 30px;
+    background-color: #80b7b3;
+    border-radius: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+}
+.textbutton span{
+    background: url("../images/pointer.svg") right no-repeat;
+    padding: 0 30px 0 0;
+}
+.textbutton:hover{
+    background: #346645;
+}
+.textbutton:active{
+    background: #95ac95;
+}
